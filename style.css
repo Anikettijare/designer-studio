@@ -1,0 +1,605 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.box1{
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.navbar a {
+    float: left;
+    text-decoration: none;
+    color:#ffc800;
+    font-size: 20px;
+    margin: 20px;
+}
+.navbar ul{
+    float: right;
+    list-style: none;
+    margin: 20px; 
+    background-color: rgb(27, 18, 18);
+}
+.navbar ul li{
+    display: inline;
+    margin: 20px;
+    font-size: 20px;
+    padding: 0px 20px;
+    text-transform: uppercase;
+}
+.navbar ul li:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.heading{
+    text-align: center;
+    padding: 15rem;
+}
+.heading h1{
+    font-weight: lighter;
+    font-style: italic;
+}
+.heading p{
+    font-size: 4rem;
+    padding: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.heading button{
+    font-size: 1.3rem;
+    background-color: #ffc800;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 15px 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* css applied to box2 */
+.info-head{
+    text-align: center;
+    padding: 5rem;  
+}
+.info-head h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.info-head p{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 22px; 
+    color: rgb(173, 169, 169);
+    padding-top: 10px;
+}
+.img-logo{
+    justify-content: center;
+    margin: 0px 0px 0px 100px;
+}
+.e-logo{
+    width: 345px;
+    height: 350px;
+    margin: 15px;
+    display: inline-block;
+}
+.e-logo img{
+    margin-left: 81px;
+}
+.e-logo h1{
+    text-align: center;
+    font-size: 25px;
+}
+.e-logo p{
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    color: rgb(158, 157, 157);
+}
+/* css applied to box3 */
+.box3{
+    background-color: rgb(245, 250, 250);
+}
+.folio-head{
+    text-align: center;
+    padding: 5rem;  
+}
+.folio-head h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.folio-head p{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 22px; 
+    color: rgb(173, 169, 169);
+    padding-top: 10px;
+}
+.fir-row{
+    margin-left: 40px;
+}
+.fir-row img{
+    width: 350px;
+    height: 300px;
+}
+.fir-img{
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    margin-left: 50px;
+}
+.fir-img p{
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(173, 169, 169);
+    padding-bottom: 20px;
+}
+.sec-row{
+    padding: 30px 0px 60px 0px;
+    margin-left: 40px;
+}
+.sec-row img{
+    width: 350px;
+    height: 300px;
+}
+.sec-img{
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    margin-left: 50px;
+}
+.sec-img p{
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(173, 169, 169);
+    padding-bottom: 20px;
+}
+/* css applied to box4 */
+.box4{
+    width: 100%;
+    height: fit-content;
+}
+.ab-head{
+    text-align: center;
+    padding: 5rem;  
+}
+.ab-head h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.ab-head p{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 22px; 
+    color: rgb(173, 169, 169);
+    padding-top: 10px;
+}
+.cummunity{
+    list-style: none;
+    padding-bottom: 80px;
+}
+.cummunity li img{
+    width: 11rem;
+    border-radius: 50%;
+    padding: 20px;
+}
+.chart-info{
+    width: 300px;
+    min-height: 300px;
+    text-align: end;
+}
+.perlap-info{
+    width: 300px;
+    min-height: 300px;
+}
+.persons-info{
+    width: 300px;
+    min-height: 300px;
+    text-align: end;
+}
+.office-info{
+    width: 300px;
+    min-height: 300px;
+}
+.list1 img{
+    float:right;
+    margin-right: 43%;
+}
+.chart-info{
+    float: left;
+    margin-left: 18%;
+}
+.list2{
+    clear: both;
+}
+.list2 img{
+    float:left;
+    margin-left: 44%;
+}
+.perlap-info{
+    float: right;
+    margin-right: 18%;
+}
+.list3{
+    clear: both;
+}
+.list3 img{
+    float:right;
+    margin-right:43% ;
+}
+.persons-info{
+    float: left;
+    margin-left: 18%;
+}
+.list4{
+    clear: both;
+}
+.list4 img{
+    float:left;
+    margin-left: 44%;
+}
+.office-info{
+    float: right;
+    margin-right: 18%;
+}
+.list5{
+    clear: both;
+}
+.timeline-img{
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ffc800;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 32px;
+    margin-left: 45%;
+}
+/* css applied to box5 */
+.box5{
+    background-color: rgb(245, 250, 250);        }
+.team-head{
+    text-align: center;
+    padding: 5rem;  
+}
+.team-head h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.team-head p{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 22px; 
+    color: rgb(173, 169, 169);
+    padding-top: 10px;
+}
+.team-info{
+    text-align: center;
+}
+.team-mem{
+    width:300px;
+    height: 300px;
+    display: inline-block;
+    margin: 60px;
+}
+.team-mem img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0.5em grey;
+}
+.team-mem p{
+    font-size: 20px;
+    color: rgb(153, 149, 149);
+}
+.team-mem i{
+    margin: 10px;
+    padding: 15px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+}
+.team-mem i:hover{
+    cursor: pointer;
+}
+.text{
+    margin: 40px 0px;
+    padding-bottom: 80px;
+}
+.text p{
+    font-size: 20px;
+    color: #6c757d;
+    line-height: 30px;
+}
+/* css applied to box6 */
+.clients{
+    display: inline-block;
+    padding: 5px;
+}
+.clients a img{
+    width: 200px;
+    margin: 60px;
+    height: 8rem;
+}
+/* css applied to box7 */
+.box7{
+    background-image: url('images/mapi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.contact-head{
+    text-align: center;
+    padding: 5rem;  
+}
+.contact-head h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.contact-head p{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 22px; 
+    color: rgb(173, 169, 169);
+    padding-top: 10px;
+}
+.contact-form{
+    margin: 30px;
+}
+.fields{
+    width: 60%;
+    margin-left: 220px;
+    display: inline-block;
+}
+.fields input{
+    width: 100%;
+    padding: 15px;
+    margin: 10px;
+}
+.fields textarea{
+    width: 100%;
+    padding: 100px;
+    margin: 10px;
+}
+.fields button{
+    margin: 10px;
+    background-color: #ffc800;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+.footer-item{
+    text-align: center;
+    padding-top: 30px;
+}
+.copy{
+    width:400px;
+    height: auto;
+    padding-bottom:30px;
+    display: inline-block;
+}
+.copy p,span{
+    font-size: 20px;
+} 
+.copy i{
+    margin: 10px;
+    padding: 15px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+}
+@media (max-width:900px){
+    .navbar ul{
+        display: none;
+    }
+    .heading{
+        text-align: center;
+        padding: 8rem;
+    }
+    .heading p{
+        font-size: 4rem;
+        padding: 10px;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    .img-logo{
+        margin-left: 0px;
+    }
+    .e-logo {
+        width: 270px;
+        height: 354px;
+        margin: 0px;
+    }
+    .e-logo img {
+        margin-left: 40px;
+    }
+    .fir-img{
+        margin-left: 13%;
+    }
+    .fir-row img {
+        width: 520px;
+        height: 420px;
+    }
+    .sec-img{
+        margin-left: 13%;
+    }
+    .sec-row img {
+        width: 520px;
+        height: 420px;
+    }
+    .chart-info{
+        margin-left: 0%;
+    }
+    .list1 img {
+        margin-right: 40%;
+    }
+    .perlap-info {
+        margin-right: 0%;
+    }
+    .list2 img{
+        margin-left: 39%;
+    }
+    .persons-info {
+        margin-left: 0%;
+    }
+    .list3 img{
+        margin-right: 40%;
+    }
+    .office-info {
+        margin-right: 0%;
+    }
+    .list4 img{
+        margin-left: 39%;
+    }
+    .timeline-img{
+        margin-left: 41%;
+    }
+    .clients a img {
+        width: 130px;
+        margin: 30px;
+        height: 10rem;
+    }
+    .contact-form {
+        margin: 0px;
+    }
+    .fields{
+        margin-left: 153px;
+    }
+    .fields input {
+        width: 100%;
+        padding: 10px;
+        margin: 3px;
+    }
+    .fields textarea {
+        width: 100%;
+        padding: 31px;
+        margin: 3px;
+    }
+    .footer-item{
+        padding-top: 30px;
+    }
+    .copy {
+        width: 260px;
+    }   
+}
+@media (max-width:600px) {
+    .heading {
+        padding: 4rem;
+        margin-top: 40px;
+    }
+    .heading p {
+        font-size: 2rem;
+        padding: 0px;
+    }
+    .e-logo img {
+        margin-left: 80px;
+    }
+    .e-logo {
+        width: 340px;
+        height: 350px;
+        margin-left: 60px;
+    }
+    .fir-img{
+        margin-left: 5%;
+    }
+    .fir-row img {
+        width: 340px;
+        height: 290px;
+    }
+    .sec-img{
+        margin-left: 5%;
+    }
+    .sec-row img {
+        width: 340px;
+        height: 290px;
+    }
+    .box4{
+        width: auto;
+        height: auto;
+    }
+    .list1 img {
+        margin-right: 0%;
+    }
+    .chart-info {
+        margin-left: 4%;
+        float: left;
+    }
+    .chart-info {
+        width: 176px;
+        min-height: 300px;
+        text-align: initial;
+    }
+    .list2 img {
+        margin-left: 0%;
+    }
+    .perlap-info {
+        margin-left: 4%;
+        float: right;
+    }
+    .perlap-info {
+        width: 176px;
+        min-height: 300px;
+        text-align: initial;
+    }
+    .list3 img {
+        margin-right: 0%;
+    }
+    .persons-info {
+        margin-left: 4%;
+    }
+    .persons-info {
+        width: 176px;
+        min-height: 300px;
+        text-align: initial;
+    }
+    .list4 {
+        padding-top: 40px;
+    }
+    .list4 img {
+        margin-left: 0%;
+    }
+    .office-info {
+        margin-right: 4%;
+    }
+    .office-info {
+        width: 176px;
+        min-height: 300px;
+        text-align: initial;
+    }
+    .box6{
+        padding-bottom: 30px;
+    }
+    .timeline-img {
+        margin-left: 34%;
+    }
+    .clients {
+        display: block;
+        padding-left: 135px;
+    }
+    .clients a img {
+        width: 170px;
+        margin: 0px;
+        height: 5rem;
+    }
+    .team-head {
+        padding: 3rem;
+    }
+    .team-info {
+        padding: 0px 20px;
+    }
+    .fields {
+        margin-left: 80px;
+    }
+    .fields button {
+        margin: 10px 40px;
+        width: 70%;
+    }
+}
