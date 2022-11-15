@@ -203,21 +203,21 @@
     padding: 20px;
 }
 .chart-info{
-    width: 300px;
+    width: 275px;
     min-height: 300px;
     text-align: end;
 }
 .perlap-info{
-    width: 300px;
+    width: 275px;
     min-height: 300px;
 }
 .persons-info{
-    width: 300px;
+    width: 275px;
     min-height: 300px;
     text-align: end;
 }
 .office-info{
-    width: 300px;
+    width: 275px;
     min-height: 300px;
 }
 .list1 img{
@@ -431,8 +431,8 @@
         margin-left: 0px;
     }
     .e-logo {
-        width: 270px;
-        height: 354px;
+        width: 253px;
+        height: 400px;
         margin: 0px;
     }
     .e-logo img {
@@ -456,32 +456,32 @@
         margin-left: 0%;
     }
     .list1 img {
-        margin-right: 40%;
+        margin-right: 39%;
     }
     .perlap-info {
         margin-right: 0%;
     }
     .list2 img{
-        margin-left: 39%;
+        margin-left: 38%;
     }
     .persons-info {
         margin-left: 0%;
     }
     .list3 img{
-        margin-right: 40%;
+        margin-right: 39%;
     }
     .office-info {
         margin-right: 0%;
     }
     .list4 img{
-        margin-left: 39%;
+        margin-left: 38%;
     }
     .timeline-img{
         margin-left: 41%;
     }
     .clients a img {
-        width: 130px;
-        margin: 30px;
+        width: 140px;
+        margin: 19px;
         height: 10rem;
     }
     .contact-form {
@@ -504,7 +504,7 @@
         padding-top: 30px;
     }
     .copy {
-        width: 260px;
+        width: 390px;
     }   
 }
 @media (max-width:700px) {
