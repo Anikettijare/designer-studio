@@ -176,15 +176,14 @@
 /* css applied to box4 */
 .box4{
     position: relative;
-    width: 100%;
-    height: auto;
+    margin-bottom: -689px;
     z-index: -1;
 }
 .box4:before{
     background: #8d8a8a;
     border-radius: 4px;
     content: "";
-    height: 70%;
+    height: 48%;
     left: 50%;
     margin-left: 5px;
     position: absolute;
@@ -557,14 +556,6 @@
     .sec-row img {
         width: 340px;
         height: 290px;
-    }
-    .box4{
-        width: auto;
-        height: auto;
-    }
-    .cummunity{
-        padding-bottom: 0px;
-        margin-bottom: -180px;
     }
     .cummunity li img{
         float: left;
