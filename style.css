@@ -175,8 +175,23 @@
 }
 /* css applied to box4 */
 .box4{
+    position: relative;
     width: 100%;
-    height: fit-content;
+    height: auto;
+    z-index: -1;
+}
+.box4:before{
+    background: #8d8a8a;
+    border-radius: 4px;
+    content: "";
+    height: 70%;
+    left: 50%;
+    margin-left: 5px;
+    position: absolute;
+    top: 420px;
+    width: 4px;
+    z-index: -1;
+
 }
 .ab-head{
     text-align: center;
@@ -547,63 +562,65 @@
         width: auto;
         height: auto;
     }
-    .list1 img {
-        margin-right: 0%;
+    .cummunity{
+        padding-bottom: 0px;
+        margin-bottom: -180px;
     }
-    .chart-info {
-        margin-left: 4%;
+    .cummunity li img{
         float: left;
+        margin-left: 5px;
     }
-    .chart-info {
-        width: 176px;
-        min-height: 300px;
-        text-align: initial;
+    .list1 img{
+        margin-right: 0px;
     }
-    .list2 img {
-        margin-left: 0%;
-    }
-    .perlap-info {
-        margin-left: 4%;
+    .chart-info{
         float: right;
+        width: 200px;
+        text-align: initial;
+        margin-left: 0px;
     }
-    .perlap-info {
-        width: 176px;
-        min-height: 300px;
+    .perlap-info{
+        float: right;
+        width: 200px;
         text-align: initial;
     }
-    .list3 img {
-        margin-right: 0%;
+    .list3 img{
+        margin-right: 0px;
     }
-    .persons-info {
-        margin-left: 4%;
+    .persons-info{
+        float: right;
+        width: 200px;
+        text-align: initial;
+        margin-left: 0px;
     }
-    .persons-info {
-        width: 176px;
-        min-height: 300px;
+    .office-info{
+        float: right;
+        width: 200px;
         text-align: initial;
     }
-    .list4 {
-        padding-top: 40px;
+    .list2 img{
+        margin-left: 0px;
     }
-    .list4 img {
-        margin-left: 0%;
-    }
-    .office-info {
-        margin-right: 4%;
-    }
-    .list5{
-        padding-top: 30px;
-    }
-    .office-info {
-        width: 176px;
-        min-height: 300px;
-        text-align: initial;
+    .list4 img{
+        margin-left: 0px;
     }
     .box6{
         padding-bottom: 30px;
     }
+    .box4:before {
+        background: #8d8a8a;
+        border-radius: 4px;
+        content: "";
+        height: 50%;
+        left: 19%;
+        margin-left: 5px;
+        position: absolute;
+        top: 420px;
+        width: 4px;
+        z-index: -1;
+    }
     .timeline-img {
-        margin-left: 34%;
+        margin-left: 5px;
     }
     .clients {
         display: block;
